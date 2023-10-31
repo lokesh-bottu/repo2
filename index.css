@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px 10px;
+}
+.heading-container{
+    width: 45%;
+    /* border: 2px solid black; */
+    display: flex;
+    
+}
+.para-container{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style: none;
+    margin: 10px 10px;
+}
+
+.btn{
+    padding: 1px 9px;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.list-menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.home{
+  width: 100%;
+  background-image: url("home.png");
+  /* height: 400px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  padding-bottom: 100px;
+}
+
+.climate1{
+  background-color: white;
+  padding: 20px 20px;
+  margin: auto;
+  width: 60%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 20px;
+}
+.climate1-heading{
+  margin: auto;
+  position: relative;
+  top: -30px;
+  background-color: #354463;
+  color: white;
+  padding: 8px 14px;
+}
+.climate1-para{
+  font-size: 18px;
+  padding: 20px 0;
+}
+.climate-small{
+  text-decoration: underline;
+  text-align: center;
+}
+.para-small{
+  text-align: center;
+}
+.climate2{
+  margin-bottom: 20px;
+
+  width: 40%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.climate2-heading{
+  color: white;
+  font: normal normal normal 44px/46px Flood Std;
+  padding: 20px 20px;
+}
+
+
+.heading-card{
+  text-align: center;
+  background-color: #354463;
+  color: white;
+  position: relative;
+  top: -16px;
+  margin: auto;
+  width: fit-content;
+  padding: 10px 20px;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.my-1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contain1{
+  padding: 15px;
+}
+
+.w-100{
+  width: 100%;
+}
+.w-50{
+  width: 50%;
+}
+
+.w-30{
+  width: 30%;
+}
+.justify-around{
+  justify-content: space-around;
+}
+.p-20{
+  padding: 20px;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.px-1{
+  padding: 0 10px;
+}
+.px-2{
+  padding-right:  30px;
+  padding-left: 30px;
+}
+.py-1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.m-auto{
+  margin:auto;
+}
+.flex{
+  display: flex;
+}
+.bg-white{
+  background-color: white;
+}
+.btn-white{
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right:  30px;
+  padding-left: 30px;
+}
+.border-none{
+  border: none;
+}
+.justify-center{
+  justify-content: center;
+}
+.bg-color2{
+  background-color: #354463;
+}
+.text-center{
+  text-align: center;
+}
+.mt-1{
+  margin-top: 10px;
+}
+.text-white{
+  color: white;
+}
+.p-4{
+  padding: 40px;
+}
+.mt-4{
+  margin-top: 40px;
+}
+.w-90{
+  width: 90%;
+}
+.relative{
+  position: relative;
+}
+.-t-5{
+  top: -20px;
+}
+
+.mx-5{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.mt-1{
+  margin-top: 40px;
+}
+
+.pb-4{
+  padding-bottom: 40px;
+}
+
+.home3{
+  background-image: url('home3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+@media screen and (min-width: 800px) {
+  .list-menu{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .climate1{
+      background-color: white;
+      padding: 20px 20px;
+      margin: auto;
+      width: 30%;
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    .climate2{
+      padding: 20px 20px;
+      margin: auto;
+      width: 30%;
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .home{
+      height: 400px;
+    }
+
+    .w-30{
+      width: 30%;
+    }
+    .md-justify-start{
+      justify-content: start;
+    }
+  .md-flex-row{
+      display: flex;
+      flex-direction: row;
+  }
+  .md-w-30{
+      width: 30%;
+  }
+  .md-w-50{
+      width: 50%;
+  }
+}
+
